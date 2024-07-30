@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="home" >
+    <a id="login" href="login.html"><i class="fa fa-fw fa-user"></i>LOGIN</a>
+    <input id="search" type="text"  placeholder="search" >
+    <a href="contact.html"><i class="fa fa-fw fa-phone"></i>CONTACT</a>
+    <a href="about us.html"><i class="fa fa-fw fa-envelope"></i>ABOUT US</a>
+    <a  id="active" href="first.html"><i class="fa fa-fw fa-home"></i>HOME</a>
+    <img id="hungry" src="logo1.png">
+</div>
+    <form action="action_page.php" method="post">
+       
+        <div class="container">
+          <header>LOGIN</header>
+          <label  id ="user"for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label id ="password" for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <h3 id="fp">Forget <a class="pass" href="">password</a></h3>
+      
+          <button type="submit" id="log">Login</button>
+        
+        
+        </div>
+      </form>
+</body>
+</html>

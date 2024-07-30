@@ -1,0 +1,161 @@
+
+body{
+    background: linear-gradient(45deg,rgb(173, 14, 14),black,rgba(11, 11, 184, 0.767));
+    
+    
+}
+#home{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:azure;
+  overflow: hidden;
+  position:fixed;
+  width:100%;
+  left:0;
+  top:0;
+  opacity: 0.9;
+  z-index:1;
+  
+}
+#home a{
+  float: right;
+  display: block;
+  color: #000;
+  padding: 14px 16px;
+  margin: 16px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+a:hover{
+  background-color:red;
+}
+#home.scrolled{
+  background-color:grey;
+}
+#search{
+  float:right;
+  margin: 25px;
+  padding: 5px  5px;
+  width: 200px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: #000;
+}
+#login{
+  background-color:red;
+}
+#hungry{
+  float: left;
+  margin: 12px;
+  height: 70px;
+  width: 150px;
+
+}
+form {
+    border: 3px solid #f8eaea;
+    border-radius: 40px;
+    background-image:url("loginbg.avif");
+    background-size: cover;
+    margin:200px auto 200px auto;
+    display: flex;
+    justify-content: center;
+    height:500px;
+    width:600px;
+    box-sizing: content-box;
+  }
+
+  input[type=text], input[type=password] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius:30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+  }
+  
+ 
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+ 
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+ 
+  .container {
+    margin: 50px;
+    padding: 16px;
+  }
+  #log{
+    margin-top:30px;
+    transform:translate(150px,20px);
+    border-radius:25px;
+    width:200px;
+    box-shadow: #f44336;
+    transition:height width ;
+    transition: all 2s;
+    
+  }
+  #log:hover{
+    display: block;
+    filter:drop-shadow(0 0 10px #fffdef);
+    background-color:aqua;
+    color:#000;
+    width:200px;
+  }
+  header{
+    color: #f44336;
+    text-align: center;
+    font-size: 40px;
+  }
+  #user,#password{
+    color: aqua;
+    font-size:30px;
+  }
+  #password{
+    position:relative;
+    top:20px;
+  }
+  input[type=password]{
+          margin-top: 30px;
+  }
+  #user{
+    position: relative;
+    top:50px;
+  }
+  input[type=text]{
+    margin-top:60px;
+  }
+  #fp{
+    float: right;
+    color: #fffdef;
+  }
+  .pass:hover{
+    color: aqua;
+    background-color:#000;
+  }
+  
+  
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+  }

@@ -1,0 +1,65 @@
+body{
+    background:linear-gradient(45deg,black,gray);
+ 
+}
+#home{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:azure;
+    position: fixed;
+    width:100%;
+    left: 0%;
+    top: 0%;
+    opacity: 0.9;
+    z-index:1;
+    
+}
+#home a{
+    float: right;
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    margin: 16px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color:red;
+}
+#active{
+    background-color:red;
+}
+#search{
+    float:right;
+    margin: 25px;
+    padding: 5px  5px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    color: #000;
+}
+#hungry{
+    float: left;
+    margin: 12px;
+    height: 70px;
+    width: 150px;
+    background-color:azure;
+}
+header{
+    text-align: center;
+    margin-top:130px;
+    font-size:40px;
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    margin-top: 30px;
+    color: aliceblue;
+    font-size:30px;
+}
+.top{
+    margin-top:90px;
+}
